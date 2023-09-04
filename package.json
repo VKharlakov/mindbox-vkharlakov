@@ -1,6 +1,7 @@
 {
   "name": "mindbox-junior",
   "version": "0.1.0",
+  "homepage": "https://vkharlakov.github.io/mindbox-vkharlakov",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
