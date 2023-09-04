@@ -1,0 +1,8 @@
+{
+  "short_name": "mindbox",
+  "name": "Kharlakov Vitaly's project for Mindbox HR team",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
