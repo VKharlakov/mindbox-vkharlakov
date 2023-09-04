@@ -1,0 +1,73 @@
+.deed {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 5px;
+  position: relative;
+  transition: 0.2s;
+  font-size: var(--p-size);
+  color: var(--main-color);
+  opacity: 0.8;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.deed:has(.deed__checkbox:checked) {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: line-through;
+}
+
+.deed:last-of-type {
+  border: none;
+}
+
+.deed:focus,
+.deed:hover {
+  cursor: pointer;
+  opacity: 1;
+  background-color: rgb(235, 235, 235);
+}
+
+.deed__title {
+  margin: 0;
+  padding: 0;
+  font-size: var(--p-size);
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deed__checkbox {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.deed__checkbox-custom {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1px solid var(--main-color);
+  transition: 0.2s;
+  aspect-ratio: 1;
+  background-image: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.deed:has(.deed__checkbox:checked) .deed__checkbox-custom {
+  background-image: url("../../images/checkbox-icon.svg");
+  border-color: #53dd6c;
+}
+
+@media all and (max-width: 450px) {
+  .deed__checkbox-custom {
+    width: 15px;
+    height: 15px;
+  }
+}
