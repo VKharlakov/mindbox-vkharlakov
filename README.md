@@ -1,13 +1,12 @@
-# Getting Started with Mindbox: TODOS
+# Mindbox: TODOS
 
-## Available Scripts
+ссылка на [**GitHub Pages**](https://vkharlakov.github.io/mindbox-vkharlakov/)
 
-In the project directory, you can run:
+## Доступные скрипты:
+
+В папке проекта запустите:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Этот скрипт запустит приложение в режиме разработки.\
+Откройте [http://localhost:3000](http://localhost:3000) чтобы посмотреть проект в браузере.
