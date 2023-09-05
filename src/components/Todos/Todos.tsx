@@ -72,6 +72,7 @@ function Todos() {
           className="todos__form"
           onSubmit={(e) => handleSubmit(e)}
           noValidate
+          role="form"
         >
           <input
             onChange={(e) => handleAddTodo(e)}
